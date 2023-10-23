@@ -165,14 +165,14 @@ ResultSet resultSet = null;
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
-                  <span class="hidden-xs">Alexander Pierce</span>
+                  <span class="hidden-xs">Kaveen Dimantha</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
                     <p>
-                      Alexander Pierce - Web Developer
+                      Kaveen Dimantha - Web Developer
                       <small>Member since Nov. 2022</small>
                     </p>
                   </li>
@@ -194,7 +194,7 @@ ResultSet resultSet = null;
                       <a href="#" class="btn btn-default btn-flat">Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                      <a href="home/index.jsp" class="btn btn-default btn-flat">Sign out</a>
                     </div>
                   </li>
                 </ul>
@@ -213,7 +213,7 @@ ResultSet resultSet = null;
               <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
-              <p>Alexander Pierce</p>
+              <p>Kaveen Dimantha</p>
 
               <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>

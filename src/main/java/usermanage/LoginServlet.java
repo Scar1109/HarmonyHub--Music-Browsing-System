@@ -50,8 +50,11 @@ public class LoginServlet extends HttpServlet {
             	String fName = resultSet.getString("fName");
             	String lName = resultSet.getString("lName");
             	String email =  resultSet.getString("uEmail");
+            	String uCountry =  resultSet.getString("uCountry");
+            	String uCity =  resultSet.getString("uCity");
+            	String uDOB =  resultSet.getString("uDOB");
             	// Successful login, you can forward to a success page (e.g., index.jsp)
-            	user user1 = new user(userName,fName,lName,email);
+            	user user1 = new user(userName,fName,lName,email,uCountry,uCity,uDOB);
             	
             	request.setAttribute("user", user1);
                 request.getRequestDispatcher("profile.jsp").forward(request, response);

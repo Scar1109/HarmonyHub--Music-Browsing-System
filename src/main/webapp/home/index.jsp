@@ -24,8 +24,8 @@
 			<div class="logo"><a href="index.jsp">HarmonyHub</a></div>
 			<div class="log_reg">
 				<ul class="d-flex flex-row align-items-start justify-content-start">
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Register</a></li>
+					<li><a href="../login.jsp">Login</a></li>
+					<li><a href="../login.jsp">Register</a></li>
 				</ul>
 			</div>
 			<nav class="main_nav">
