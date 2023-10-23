@@ -33,24 +33,33 @@ public class LoginServlet extends HttpServlet {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             // Establish a database connection (you need to replace these with your database credentials)
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/usermanage", "root", "");
+            Class.forName("com.mysql.cj.jdbc.Driver");
+		     conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/usermanage","root","");
 
             // Create a SQL query to retrieve a user with the given username and password
-            String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
+            String sql = "SELECT * FROM user1 WHERE uName = ?";
             st = conn.prepareStatement(sql);
             st.setString(1, uName);
-            st.setString(2, uPass);
-
+            
             // Execute the query
             resultSet = st.executeQuery();
 
             if (resultSet.next()) {
+            	
+            	String userName = resultSet.getString("uName");
+            	String fName = resultSet.getString("fName");
+            	String lName = resultSet.getString("lName");
+            	String email =  resultSet.getString("uEmail");
             	// Successful login, you can forward to a success page (e.g., index.jsp)
-            	RequestDispatcher rd = request.getRequestDispatcher("/index.jsp");
-            	rd.forward(request, response);
+            	user user1 = new user(userName,fName,lName,email);
+            	
+            	request.setAttribute("user", user1);
+                request.getRequestDispatcher("profile.jsp").forward(request, response);
+            	
             } else {
+            	
                 // Invalid login, you can redirect to an error page (e.g., error.html)
-                response.sendRedirect("error.html");
+                response.sendRedirect("error.jsp");
             }
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
