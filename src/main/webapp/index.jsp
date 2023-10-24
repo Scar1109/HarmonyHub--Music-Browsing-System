@@ -139,13 +139,13 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                  <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="user-image" alt="User Image"/>
                   <span class="hidden-xs">Kaveen Dimantha</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                    <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="img-circle" alt="User Image" />
                     <p>
                       Kaveen Dimantha - Web Developer
                       <small>Member since Nov. 2022</small>
@@ -185,7 +185,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+              <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
               <p>Kaveen Dimantha</p>
@@ -372,7 +372,7 @@
                   </div><!-- /.item -->
                   <!-- chat item -->
                   <div class="item">
-                    <img src="dist/img/user2-160x160.jpg" alt="user image" class="offline"/>
+                    <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" alt="user image" class="offline"/>
                     <p class="message">
                       <a href="#" class="name">
                         <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> 5:30</small>

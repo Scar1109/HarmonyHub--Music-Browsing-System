@@ -164,13 +164,13 @@ ResultSet resultSet = null;
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                  <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="user-image" alt="User Image"/>
                   <span class="hidden-xs">Kaveen Dimantha</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+                    <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="img-circle" alt="User Image" />
                     <p>
                       Kaveen Dimantha - Web Developer
                       <small>Member since Nov. 2022</small>
@@ -210,7 +210,7 @@ ResultSet resultSet = null;
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
+              <img src="dist/img/358036047_1972251473131578_6379413422626285261_n.jpg" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
               <p>Kaveen Dimantha</p>
@@ -322,9 +322,9 @@ while(resultSet.next()){
 				  <td><%=resultSet.getString("uCountry") %></td>
 				  <td><%=resultSet.getString("uCity") %></td>
 				  
-				   <td><a href="UserUpdate.jsp?uID=<%=resultSet.getInt("uID") %>"><button class="button1" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="fas fa-trash-alt"></span></button></p></a></td>
+				   <td><a href="UserUpdate.jsp?uID=<%=resultSet.getInt("uID") %>"><button class="button1" data-title="Edit" data-toggle="modal" data-target="#edit" >UPDATE</span></button></p></a></td>
 				 
-				  <td><a href="DeleteUser.jsp?uID=<%=resultSet.getInt("uID") %>"><button class="button2" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="fas fa-trash-alt"></span></button></p></a></td>
+				  <td><a href="DeleteUser.jsp?uID=<%=resultSet.getInt("uID") %>"><button class="button2" data-title="Delete" data-toggle="modal" data-target="#delete" onclick="return confirm('Are you sure you want to delete this video?');" >DELETE</button></p></a></td>
 				  
 				  </tr>
 				  

@@ -11,3 +11,4 @@
 	stat.executeUpdate("delete from user1 where uID ='" +uID+"'");
 	response.sendRedirect("ManageUser.jsp");
 	%>
+	

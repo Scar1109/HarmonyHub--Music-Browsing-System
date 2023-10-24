@@ -2,14 +2,13 @@ package usermanage;
 
 public class user {
 
-	String userName;
-	String fName;
-	String lName;
-	String email;
-	String uCountry;
-	String uCity;
-	String uDOB;
-	
+	private String userName;
+	private String fName;
+	private String lName;
+	private String email;
+	private String uCountry;
+	private String uCity;
+	private String uDOB;
 	
 	
 	public user(String userName, String fName, String lName, String email, String uCountry, String uCity, String uDOB) {
@@ -21,7 +20,6 @@ public class user {
 		this.uCity = uCity;
 		this.uDOB = uDOB;
 	}
-	
 	
 	public String getuCountry() {
 		return uCountry;
@@ -36,15 +34,17 @@ public class user {
 	}
 
 	public String getUserName() {
-		System.out.println(userName);
 		return userName;
 	}
+	
 	public String getfName() {
 		return fName;
 	}
+	
 	public String getlName() {
 		return lName;
 	}
+	
 	public String getEmail() {
 		return email;
 	}
